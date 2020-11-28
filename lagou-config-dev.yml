@@ -11,7 +11,7 @@ config:
     iplimit:
       apis: /api/user/register/
       intervalMinutes: 1
-      maxRequestCount: 6
+      maxRequestCount: 100
   response:
     message:
       seeother: 您频繁进行注册，请求已被拒绝！
